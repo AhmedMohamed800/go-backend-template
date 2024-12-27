@@ -1,0 +1,47 @@
+# Binaries and executables
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+
+# Logs
+*.log
+
+# Dependency directories (for vendored dependencies)
+vendor/
+
+# Configuration and environment files
+.env
+.env.*
+
+# Compiled Go files
+*.o
+*.a
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker and build artifacts
+docker-compose.override.yml
+
+# Test coverage files
+*.cover
+coverage.out
+
+# Debug and profiling files
+*.prof
+trace.out
+
+# Generated API docs
+swagger/*
+
+# Temporary files
+tmp/
