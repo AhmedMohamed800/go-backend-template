@@ -13,8 +13,10 @@ vendor/
 
 # Configuration and environment files
 .env
+.env.development
+.env.production
 !.env.example
-
+db.sqlite
 
 # Compiled Go files
 *.o
