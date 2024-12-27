@@ -37,3 +37,8 @@ A modular and scalable backend server built with Go and Echo, pre-configured wit
 4. Run the server:
    ```bash
     go run main.go
+
+
+## inspiration
+
+(Structured Contextual logging In Go Echo With Correlation Id)[https://medium.com/@mo-pankaj/structured-logging-in-go-echo-c0ab1901a7a9]

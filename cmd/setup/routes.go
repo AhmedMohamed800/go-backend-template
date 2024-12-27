@@ -1,4 +1,4 @@
-package registration
+package setup
 
 import (
 	"net/http"

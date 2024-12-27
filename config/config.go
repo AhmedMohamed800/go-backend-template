@@ -37,6 +37,7 @@ type EmailConfig struct {
 
 type DebugConfig struct {
 	DebugMode bool
+	LogOutputPath string
 }
 
 // Add more configs as needed
@@ -91,6 +92,7 @@ func LoadConfig() (*Config, error) {
         },
         DebugConfig: DebugConfig{
             DebugMode: os.Getenv("DEBUG_MODE") == "true",
+			LogOutputPath: os.Getenv("LOG_OUTPUT_PATH"),
         },
     }
 
